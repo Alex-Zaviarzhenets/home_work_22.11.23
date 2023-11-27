@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: "Oswald";
+}
+
+
+/* section main-header start */
+
+.main-header {
+    padding-top: 192px;
+    background-image: linear-gradient(rgba(64, 65, 73,0.9), rgba(64, 65, 73,0.9)), url(https://s0.rbk.ru/v6_top_pics/media/img/8/30/756659883010308.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-header > h1 {
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 64px;
+    width: 734px;
+    text-align: center;
+    margin: 0 auto 20px;
+    line-height: 94.85px;
+}
+
+.main-header > h2 {
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0 auto 20px;
+    text-align: center;
+    width: 734px;
+}
+
+.medals {
+    background-color: #fff;
+    width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+.medals header {
+    font-weight: 500;
+    font-size: 72px;
+    color: #F7654A;
+    line-height: 106px;
+    text-align: center;
+}
+
+.medals div:nth-child(2) {
+    font-weight: 500;
+    font-size: 36px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 53px;
+}
+
+.medals div:last-child {
+    text-align: center;
+    color: #999;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+/* section main-header end */
+
+
+
+
+/* section arena-wrapper start */
+
+.arena-wrapper{
+    width: 1110px;
+    height: 681px;
+    margin: 0 auto;
+}
+
+.arena-wrapper > h3{
+    display: flex;
+    justify-content: center;
+    font-family: oswald;
+    font-weight: 500px;
+    font-size: 36px;
+    line-height: 53.35px;
+    margin-top: 280px;
+    margin-bottom: 30px;
+
+}
+
+.arena-wrapper > div {
+    display: flex;
+    justify-content: center;
+}
+
+
+.arena-wrapper > div > article > img{
+    width: 350px;
+    height: 380px;
+    margin-bottom: 30px;
+    
+}
+
+.arena-wrapper > div > article > h4{
+    font-weight: 500px;
+    font-size: 24px;
+}
+
+.arena-wrapper > div > article > p{
+    margin-top: 20px;
+}
+
+.topBorder{
+    width: 55px;
+    height: 45px;
+    border-top:  7px solid #F7654A;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    display: flex;
+    align-items: end;
+}
+
+/* section arena-wrapper end */
+
+
+
+
+/* section project-wrapper stsrt */
+
+.projects-wrapper{
+    width: 100%;
+    height: 181px;
+    background-color: #F7654A;
+    display: flex;
+   align-items: center;
+   margin-top: 40px;
+}
+
+.projects-wrapper > header{
+    width: 50%;
+    height: 141px;
+}
+
+.projects-wrapper > div{
+    width: 50%;
+    height: 141px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects-wrapper > header > h3{
+    font-size: 35px;
+    font-weight: 700px;
+    line-height: 71.14px;
+    letter-spacing: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.projects-wrapper > header > h4{
+   font-size: 23px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: #fff;
+}
+
+.projects-wrapper > div > button{
+    width: 175px;
+    height: 49px;
+}
+
+/* section project-wrapper end */
+
+
+
+
+/* section cards-wrapper start */
+
+.cards-wrapper{
+    width: 100%;
+    height: 359px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    
+}
+
+.cards-wrapper > h4{
+    font-weight: 500px;
+    font-size: 36px;
+    line-height: 53.35px;
+    margin: auto;
+}
+
+.cards-wrapper > div{
+    margin-top: 80px;
+    width: 100%;
+    height: 339px;
+    display: flex;
+    justify-content: center;
+}
+
+.cards-wrapper > div > article{
+    width: 172px;
+    height: 132px;
+    background-color:bisque;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+/* section cards-wrapper end */
+
+
